@@ -19,8 +19,8 @@ public InputDeviceCharacteristics controllerCharacteristics;
         InputDevices.GetDevicesWithCharacteristics(controllerCharacteristics, devices);
 
         foreach (var item in devices) {
-            Debug.Log(item.name);
-            Debug.Log(item.characteristics);
+            // Debug.Log(item.name);
+            // Debug.Log(item.characteristics);
         }
 
         if (devices.Count > 0) {
